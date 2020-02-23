@@ -1,37 +1,22 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "team_reborn_energy",
   "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Energy",
+  "description": "The Energy API created and used by Team Reborn",
   "authors": [
-    "Me!"
+    "Team Reborn",
+    "modmuss50"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/TechReborn/Energy",
+    "sources": "https://github.com/TechReborn/Energy",
+    "issues": "https://github.com/TechReborn/Energy/issues"
   },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
+  "license": "WTFPL",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
-    ]
-  },
-  "mixins": [
-    "modid.mixins.json"
-  ],
-
-  "depends": {
-    "fabricloader": ">=0.7.2",
-    "fabric": "*",
-    "minecraft": "1.15.x"
-  },
-  "suggests": {
-    "flamingo": "*"
+  "icon": "assets/team_reborn_energy/icon.png",
+  "custom": {
+    "modmenu:api": true
   }
 }
